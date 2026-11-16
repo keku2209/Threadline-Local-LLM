@@ -1,0 +1,30 @@
+.env
+.env.*
+!.env.example
+
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+node_modules/
+**/node_modules/
+
+.cache/
+*.safetensors
+*.pt
+*.pth
+
+dist/
+build/
+.pytest_cache/
+*.log
+
+# Local database and personal configuration
+*.db
+zowe.config.json
+
+# Generated frontend files
+*.tsbuildinfo
+frontend/vite.config.js
+frontend/vite.config.d.ts
